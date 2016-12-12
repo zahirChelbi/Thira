@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <kbl.chelbi.editeur.AdvancedEditText
+            android:id="@+id/editText"
+            android:gravity="start"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cursorVisible="true"
+            android:inputType="textMultiLine"
+            android:textIsSelectable="true"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="5dp"
+            android:scrollbars="vertical"
+            android:textCursorDrawable="@null"
+            >
+    </kbl.chelbi.editeur.AdvancedEditText>
+
+
+
+</LinearLayout>

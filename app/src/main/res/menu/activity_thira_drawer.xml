@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Nouveau" />
+        <item
+            android:id="@+id/nav_suppr"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="Supprimer" />
+        <item
+            android:id="@+id/nav_save"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="enregistrer" />
+        <item
+            android:id="@+id/nav_load"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:title="Load" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_clavier"
+                android:icon="@drawable/sym_keyboard_done"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
